@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Bootstrap primary color */
+}
+
+.navbar-nav .nav-link.active {
+    color: #007bff; /* Bootstrap primary color */
+    border-bottom: 2px solid #007bff; /* Underline for active link */
+}
